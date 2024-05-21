@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ITBlender</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <style>
+    
+
+    table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #0c0c0c;
+            position: relative; /* Позиционирование для подчеркивания */
+        }
+        th::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-bottom: 2px solid #000; /* Двойная линия под заголовком */
+        }
+        td {
+            background-color: #0c0c0c;
+        }
+        tr:nth-child(even) td {
+            background-color: #0c0c0c;
+        }
+</style>
+ 
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="device-notification">
+    <a class="device-notification--logo" href="#0">
+      <img src="..//assets/img/logo1.png" alt="Global">
+      <p>ITBlender</p>
+    </a>
+    <p class="device-notification--message">К сожалению на данный момент мобильная версия не готова.</p>
+  </div>
+
+  <div class="perspective effect-rotate-left">
+    <div class="container"><div class="outer-nav--return"></div>
+      <div id="viewport" class="l-viewport">
+        <div class="l-wrapper">
+          <header class="header">
+            <a class="header--logo" href="../index.html">
+              <img src="..//assets/img/logo1.png" alt="Global" >
+              <p></p>
+            </a>
+           
+            
+          </header>
+          <nav class="l-side-nav">
+            <ul class="side-nav">
+              <li class="is-active"><span>Главная</span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>   
+            </ul>
+          </nav>
+          <ul class="l-main-content main-content">
+            <li class="l-section section section--is-active">
+              <div class="intro">
+                <div class="intro--banner">
+                  <h1>Моделирование 3D объектов с помощью сплайнов</h1>
+                  <h2>Уровень 1.    Урок 9</h2>
+                  
+                  
+                    <span class="btn-background"></span>
+                  </button>
+                  <img src="../assets/img/Blender3D.png" alt="Welcome">
+                </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <p align="justify">Сплайнами называются плоские фигуры, чаще всего служащие заготовками для создания трехмерных объектов.<br><br>
+
+                    Для создания сплайна переключитесь в раздел Shapes командной панели (рис. 3.1). Щелкнув по кнопке с названием нужной плоской фигуры, напри­мер Circle (Окружность), вы включите режим построения. В любом видовом окне нажмите левую кнопку мыши и, удерживая нажатой, растяните фигуру. Щелчком правой кнопкой мыши выключитесь из режима построения. По­добным образом строится большинство плоских фигур. Исключение состав­ляет Line (Линия). Линия строится щелчками мыши. Каждый щелчок создает опорную точку сплайна.<br><br>
+                    Типы сплайнов:
+
+                    <ul>
+                      <li>Line — линия;</li>
+                      <li>Circle — окружность;</li>
+                      <li>Arc — дуга;</li>
+                      <li>NGon — многоугольник, можно настроить количество углов;</li>
+                      <li>Text — текст;</li>
+                      <li>Section — создает срез любого имеющегося трехмерного объекта;</li>
+                      <li>Rectangle — прямоугольник, можно настроить скругление углов;</li>
+                      <li>Ellipse — эллипс;</li>
+                      <li>Donut — кольцо, две окружности из одного центра;</li>
+                      <li>Star — звезда, можно настроить количество и скругление лучей;</li>
+                      <li>Helix — спираль.</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <p align="justify">Типы опорных точек:
+                    <ul>
+                      <li>Corner — угловая;</li>
+                      <li>Smooth — гладкая;</li>
+                      <li>Bezier — гладкая точка с направляющими векторами, угол между которыми всегда 180°;</li>
+                      <li>Bezier Corner — угловая точка с направляющими векторами, угол между которыми можно изменять.</li> 
+                  </ul><br><br>
+                  Редактирование сплайнов<br><br>
+
+                      Edit Spline — основной модификатор, предназначенный для редактирования сплайнов. Особенностью этого модификатора является использование подобъектов (Sub-Object).<br><br>
+
+                      Подобъектами называются составляющие объекта (вершины, ребра, плоско­сти и т. д.). Только включением уровня подобъектов становится доступным большинство специальных команд модификатора Edit Spline.<br><br>
+
+                      Основные команды модификатора Edit Spline<br><br>
+
+                      Модификатор имеет три уровня подобъектов (три уровня редактирования):
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <h2>Уроки</h2>
+                  <table>
+                      <tr>
+                          <th>Команда</th>
+                          <td>Уровень подобъектов</td>
+                          <td>Назначение команды</td>
+                      </tr>
+                      <tr>
+                          <th>Create Line</th>
+                          <td></td>
+                          <td>Создание сплайна, изначально входящего в состав с основным (составная фигура)</td>
+                      </tr>
+                      <tr>
+                        <th>Delete</th>
+                        <td></td>
+                        <td>Удаление различных подобъектов</td>
+                      </tr>
+                      <tr>
+                          <th>Attach</th>
+                          <td></td>
+                          <td>Присоединение другого сплайна к данному для создания составной фигуры (объекты или мо­дификаторы не должны быть Instance или Reference)</td>
+                      </tr>
+                      <tr>
+                        <th>Attach Mult</th>
+                        <td></td>
+                        <td>Присоединение других объектов в режиме име­нованного списка; используется, когда необхо­димо присоединить сразу много объектов</td>
+                      </tr>
+                      <tr>
+                          <th>Detach</th>
+                          <td>Segment Spline</td>
+                          <td>Отсоединение выбранных подобъектов (сег­ментов или сплайнов, возможно отсоединение их копий)</td>
+                      </tr>
+                      <tr>
+                        <th>Refine</th>
+                        <td>Vertex</td>
+                        <td>Создание новых вершин на имеющемся сплай­не</td>
+                      </tr>
+                      <tr>
+                          <th>Break</th>
+                          <td>Vertex</td>
+                          <td>Разбиение вершины на две самостоятельные. Сплайн при этом разрывается. Нельзя приме­нить к крайней вершине сплайна</td>
+                      </tr>
+                      <tr>
+                        <th>Insert</th>
+                        <td>Vertex</td>
+                        <td>Создание новых вершин, одновременно изме­няя их положение на сплайне</td>
+                      </tr>
+                      <tr>
+                          <th>Make First</th>
+                          <td>Vertex</td>
+                          <td>Определение первой точки сплайна. Сначала выделить точку, а потом щелкнуть по кнопке с командой. Первая вершина сплайна выделяет­ся квадратиком. Это важно для Loft и Cross Section</td>
+                      </tr>
+                      <tr>
+                        <th>Chamfer</th>
+                        <td>Vertex</td>
+                        <td>Фаска точки. Создает правильно срезанный угол</td>
+                      </tr>
+                      
+                      
+                </table>
+                </div>
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <h2>ъъКоманды модификатора Edit Spline</h2>
+                  <table>
+                      <tr>
+                        <th>Команда</th>
+                        <td>Уровень подобъектов</td>
+                        <td>Назначение команды</td>
+                      </tr>
+                      <tr>
+                        <th>Fillet</th>
+                        <td>Vertex</td>
+                        <td>Скругление угла, создает плавно закругленные углы</td>
+                      </tr>
+                      <tr>
+                        <th>Weld</th>
+                        <td>Vertex</td>
+                        <td>Спаивание заранее выделенных вершин, сдви­гая их навстречу друг другу. Имеет настройку чувствительности к расстоянию между верши­нами</td>
+                      </tr>
+                      <tr>
+                          <th>Connect</th>
+                          <td>Vertex</td>
+                          <td>Соединение вершин новым отрезком, не сдви­гая их</td>
+                      </tr>
+                      <tr>
+                        <th>Divide</th>
+                        <td>Segment</td>
+                        <td>Разделение сегмента на равные отрезки. Имеет настройку количества отрезков</td>
+                      </tr>
+                      <tr>
+                          <th>Outline</th>
+                          <td>Spline</td>
+                          <td>Обведение сплайна другим сплайном, большим или меньшим по размеру</td>
+                      </tr>
+                      <tr>
+                          <th>Boolean</th>
+                          <td>Spline</td>
+                          <td>Логическая операция между сплайнами: Сло­жение/Вычитание/Пересечение</td>
+                      </tr>
+                      <tr>
+                        <th>Mirror</th>
+                        <td>Spline</td>
+                        <td>Зеркальная копия, изначально соединена с ори­гиналом</td>
+                      </tr>
+                      <tr>
+                        <th>Trim</th>
+                        <td>Spline</td>
+                        <td>Отсечение сплайна до пересечения с другим сплайном</td>
+                      </tr>
+                      <tr>
+                          <th>Extend</th>
+                          <td>Spline</td>
+                          <td>Продление сплайна до пересечения с другим сплайном</td>
+                      </tr>
+                      <tr>
+                          <th>Close</th>
+                          <td>Spline</td>
+                          <td>Замыкание разорванного сплайна</td>
+                    </tr>
+                </table>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <ul class="outer-nav">
+      <li class="is-active">Главная</li>
+      <li>Наши работы</li>
+      <li>3D модель</li>
+      <li>Все уроки</li>
+      <li>Авторизация</li>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+  <script src="../assets/js/functions-min.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+  <script src="../assets/js/index.js"></script>
+  <script src="../assets/js/test.js"></script>
+
+
+  <script>
+    calc.onclick = function(){
+    var myform = this.form;
+    myform.result.value = +myform.myname.value + +myform.street.value;
+}
+    </script>
+</body>
+</html>

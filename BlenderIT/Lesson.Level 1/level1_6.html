@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ITBlender</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="../assets/css/main.css">
+ 
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="device-notification">
+    <a class="device-notification--logo" href="#0">
+      <img src="..//assets/img/logo1.png" alt="Global">
+      <p>ITBlender</p>
+    </a>
+    <p class="device-notification--message">К сожалению на данный момент мобильная версия не готова.</p>
+  </div>
+
+  <div class="perspective effect-rotate-left">
+    <div class="container"><div class="outer-nav--return"></div>
+      <div id="viewport" class="l-viewport">
+        <div class="l-wrapper">
+          <header class="header">
+            <a class="header--logo" href="../index.html">
+              <img src="..//assets/img/logo1.png" alt="Global" >
+              <p></p>
+            </a>
+           
+            
+          </header>
+          <nav class="l-side-nav">
+            <ul class="side-nav">
+              <li class="is-active"><span>Главная</span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              
+              
+            </ul>
+          </nav>
+          <ul class="l-main-content main-content">
+            <li class="l-section section section--is-active">
+              <div class="intro">
+                <div class="intro--banner">
+                  <h1>Закрашивание объектов сцены</h1>
+                  <h2>Уровень 1.    Урок 6</h2>
+                  
+                  
+                    <span class="btn-background"></span>
+                  </button>
+                  <img src="../assets/img/Blender3D.png" alt="Welcome">
+                </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <p align="justify">При создании почти любой геометрически сложной модели, может возникнуть ситуация, когда использование только бесшовных повторяющихся текстур является не оптимальным, либо в силу плохой разборчивости UV-развертки, например из-за наложения островов (групп связанных полигонов на развертке), либо из-за трудоемкости создания вариаций необходимых текстур их масштабирования, либо из-за необходимости делать слишком мелкую нарезку полигонов под большое количество материалов-текстур. Именно в таких и подобных ситуациях рекомендую использовать технику Texture Paint, т.е. разрисовать свою модель.
+                </div>
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <p align="justify">Создайте UV-развертку, вашего активного объекта, сведя к минимуму степень натяжения (UV Editing -> Overlays -> Display Stretch). Этого можно добится комбинируя помечание необходимых ребер как линии рзреза (UV -> Mark Seam) [обычно помечаются красным], и запуск повторной развертки (UV -> Unwrap).<br><br>Откройте вкладку Materials в панели Properties (обычно в правой части экрана)<br><br>
+                    Выберите материал, ассоциированный с полигонами, которые требуется расписать.<br><br>
+                    Присвойте необходимому каналу (обычно это Base Color), вводные данные типа “текстурное изображение” (Image Texture)<br><br>
+                    В появившейся строке щелкните “Создать новую” (New), Обзовите свою будущую текстуру (Name), задайте ее размеры (Width – ширина и Height – высота) и начальный цвет фона (Color), поддержку прозрачности (галочку Alpha) и начальный шаблон (Generated Type).<br><br>
+                    Переключите интерфейс в режим рисования текстур, переключив закладку в верхней части экрана на Texture Paint<br><br> Откройте вкладку Texture Properties на панели Properties<br><br>
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <p align="justify">
+                    Нажмите New в верхней части панели,<br><br>
+                    1) затем Image -> Settings -> Open, чтобы открыть свою текстуру-кисть (рекомендую использовать бесшовную).<br>
+                    2) Загруженную текстур можно переименовать щелкнув два раза на вторую строчку, прямо под строкой Brush.<br>
+                    3) Если ошиблись, или нужно сменить изображение внутри кисти, нажмите Х в строке с названием вашего изображения, в строке Settings данной панели.<br>
+                    4) Нажмите Х в строке с названием Текстуры, если хотите создать новую из другого изображения сохранив кисть, созданную из предыдущего.<br><br>
+                    Перейдите на вкладку Active Tool and Workspace Settings на панели Properties<br><br>
+                  
+                    Обратите внимание на первичный цвет, в блоке Color Picker, находящийся слева.
+                    Этот цвет будет использоваться вашей кистью без текстуры-образца а так же как цвет тонирования в паре с текстурой.<br><br>
+                    Пролистайте до блока Texture, и рзверните его. Щелкните на большую кнопку прямо под заголовком, и выберите свою текстуру-кисть. Если там подключена другая, ненужная вам, предварительно нажмите Х, прямо под привью.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <p align="justify">
+
+                    Опциональный дропбокс Mapping (прямо под превью текстуры) позволяет задать то как ваша текстура-кисть будет “ложиться” на модель.<br><br>
+                    1) Tiled – Значение по умолчанию. Бесшовное рисование, с учетом текущего направления камеры, и ее приближения к объекту.<br>
+                    2) Stencil – Режим трафарета. Позволяет самостоятельно настроить размер и положение трафарета прикрепленного к камере, и наносить текстуру через него.<br>
+                    3) Random – Случайным образом смещает и поворачивает трафаретную текстуру в процессе рисования.
+                    4) 3D – Наносит трафаретную текстуру строго по развертке. Идеальный вариант для мягкой комбинации нескольких текстур в одном материале.<br>
+                    5) View Pane – На пообии Tiled, наносит текстур исходя из положения камеры, но не беспокоится о бесшовности, тем самым создавая эффект чешуи.<br><br>
+                    Начинайте наносит текстурный рисунок, удерживая ЛКМ и водя по поверхности модели в правой части окна, или по развертке в левой. Помните, что радиус кисти и основной цвет влияют на рисунок.<br><br>
+                    Завершив рисование, ОБЯЗАТЕЛЬНО выполните команду Image -> Save As / Save чтобы сохранить изображение, в левой половине окна программы, иначе вы ПОТЕРЯЕТЕ весь созданный текстурный рисунок. </p>
+                </div>
+              </div>
+            </li>
+
+            
+
+            
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <ul class="outer-nav">
+      <li class="is-active">Главная</li>
+      <li>Наши работы</li>
+      <li>3D модель</li>
+      <li>Все уроки</li>
+      <li>Авторизация</li>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+  <script src="../assets/js/functions-min.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+  <script src="../assets/js/index.js"></script>
+  <script src="../assets/js/test.js"></script>
+
+
+  <script>
+    calc.onclick = function(){
+    var myform = this.form;
+    myform.result.value = +myform.myname.value + +myform.street.value;
+}
+    </script>
+</body>
+</html>

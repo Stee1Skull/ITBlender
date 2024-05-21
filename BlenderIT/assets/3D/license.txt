@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mc'Laren 720S LBWK [Unfinished]
+* source:	https://sketchfab.com/3d-models/mclaren-720s-lbwk-unfinished-2eadaec0f89e4b9d9069ba7d7f2cd18f
+* author:	blakebella (https://sketchfab.com/blakebella)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mc'Laren 720S LBWK [Unfinished]" (https://sketchfab.com/3d-models/mclaren-720s-lbwk-unfinished-2eadaec0f89e4b9d9069ba7d7f2cd18f) by blakebella (https://sketchfab.com/blakebella) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)

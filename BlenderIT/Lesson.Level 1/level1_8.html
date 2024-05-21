@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ITBlender</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="../assets/css/main.css">
+ 
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="device-notification">
+    <a class="device-notification--logo" href="#0">
+      <img src="..//assets/img/logo1.png" alt="Global">
+      <p>ITBlender</p>
+    </a>
+    <p class="device-notification--message">К сожалению на данный момент мобильная версия не готова.</p>
+  </div>
+
+  <div class="perspective effect-rotate-left">
+    <div class="container"><div class="outer-nav--return"></div>
+      <div id="viewport" class="l-viewport">
+        <div class="l-wrapper">
+          <header class="header">
+            <a class="header--logo" href="../index.html">
+              <img src="..//assets/img/logo1.png" alt="Global" >
+              <p></p>
+            </a>
+           
+            
+          </header>
+          <nav class="l-side-nav">
+            <ul class="side-nav">
+              <li class="is-active"><span>Главная</span></li>
+              <li><span></span></li>
+              <li><span></span></li>
+              <li><span></span></li>  
+            </ul>
+          </nav>
+          <ul class="l-main-content main-content">
+            <li class="l-section section section--is-active">
+              <div class="intro">
+                <div class="intro--banner">
+                  <h1>Источники света</h1>
+                  <h2>Уровень 1.    Урок 7</h2>
+                  
+                  
+                    <span class="btn-background"></span>
+                  </button>
+                  <img src="../assets/img/Blender3D.png" alt="Welcome">
+                </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <p align="justify">Создать реалистичную сцену невозможно без правильно настроенных источников света (ламп). Это особые объекты, которые учитываются рендер-движком во время расчета освещенности объектов. Лампы могут быть нескольких типов:<br><br>
+
+                    Point (точечный свет) – светит одинаково во всех направлениях из одной точки, как, скажем, электрическая лампочка;<br><br>
+                    Sun (солнечный свет) – имитирует удаленные источники света, например, солнце. Считается, что такая лампа бесконечно удалена от сцены – все световые лучи являются параллельными и направлены вдоль заданной оси;<br><br>
+                    Spot (направленный свет) – похож на Point, но светит не во всех направлениях, а в пределах конуса. Освещаются только объекты, попадающие в этот конус, как в случае с карманным фонариком;<br><br>
+                    Hemi (от «hemishpere» – «полусфера») – равномерный свет, идущий от поверхности бесконечно удаленной полусферы. Пример такого освещения в реальности – дневное небо в пасмурную погоду;<br><br>
+                    Area (площадь) – свет, идущий от прямоугольной поверхности. Эту лампу можно использовать для имитации света из окна, от дисплеев, лайтбоксов и т.д.
+                </div>
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <p align="justify">У ламп есть параметр яркости – Energy: чем он выше, тем больше световой энергии излучает источник. Кроме того, любую лампу можно сделать «негативной» (опция Negative) – в этом случае она будет не излучать, а поглощать свет, создавая своеобразную искусственную тень.<br><br>
+
+                    Кстати, о тенях. Любой объект, для материала которого активирована тень, будет отбрасывать ее на другие объекты. Вы можете проверить это, создав плоскость и «поставив» на нее какой-нибудь примитив – скажем, куб.<br><br>
+                    
+                    По умолчанию тени резкие и черные, что не очень реалистично. Мы можем это изменить: перейдите в настройки лампы и на вкладке Shadow увеличьте количество сэмплов тени (Samples), например, на 4. Параметр Soft Size (величина размытия) выставьте равным 0.5. Цвет тени сделайте не черным, а серым. Теперь тень станет прозрачной и нечеткой по краям, как и в реальной жизни. Качество размытия повышается увеличением количества сэмплов.<br><br>
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="l-section section">
+              <div class="work">
+                <div class="intro">
+                  <p align="justify">
+                    Можно сделать тень цветной. В Blender даже есть возможность использования цвета материала для создания разноцветных теней! Это позволяет добиться любопытнейших эффектов. Один из них – «кинопроектор»: прозрачное изображение просвечивается, и полученная тень отбрасывается на экран напротив. Создайте плоскость и поверните ее вертикально – это у нас будет экран. Создайте новую лампу и укажите ей тип Spot. Поместите лампу на нужном расстоянии от экрана и поверните на 90 градусов. Переключите ее режим тени на Ray Shadow. На вкладке Spot Shape активируйте опцию Halo и измените параметр Size на 30. Создайте новую вертикальную плоскость, поменьше. Поместите ее на близком расстоянии от лампы. Если нужно – измените пропорции. Эта плоскость будет выступать в качестве слайда.<br><br>
+
+                    Создайте для слайда материал. Включите прозрачность (Transparency) и уменьшите значение Alpha до 0.2. Добавьте новую текстуру и загрузите картинку с альфа-каналом. Важно, чтобы картинка была полупрозрачной, как реальный слайд – это надо заранее сделать в графическом редакторе. В параметрах влияния укажите Color и Alpha.<br><br>
+
+                    Выберите плоскость-экран и создайте ей новый материал. На вкладке Shadow активируйте опцию Receive Transparent. Теперь экран будет принимать любые прозрачные тени. Вы можете создать несколько других объектов с этим же материалом и поставить их между экраном и слайдом – на них вы тоже увидите цветную проекцию!</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <ul class="outer-nav">
+      <li class="is-active">Главная</li>
+      <li>Наши работы</li>
+      <li>3D модель</li>
+      <li>Все уроки</li>
+      <li>Авторизация</li>
+    </ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+  <script src="../assets/js/functions-min.js"></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+  <script src="../assets/js/index.js"></script>
+  <script src="../assets/js/test.js"></script>
+
+
+  <script>
+    calc.onclick = function(){
+    var myform = this.form;
+    myform.result.value = +myform.myname.value + +myform.street.value;
+}
+    </script>
+</body>
+</html>
